@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppCompat.WorkSercherLight" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@drawable/main_page_background</item>
+        <item name="android:popupTheme">@style/BarPopup</item>
+        <item name="title">RSUEWorkSearcher</item>
+        <item name="searchHintIcon">@drawable/baseline_search_30</item>
+<!--        <item name="android:windowIsTranslucent">true</item>-->
+<!--        <item name="android:windowAnimationStyle">@style/StyleForChangingActivity</item>-->
+        <item name="actionBarStyle">@style/BarBack</item>
+        <item name="popupTheme">@style/BarPopup</item>
+
+
+    </style>
+<!-- Actionbar -->
+    <style name="BarBack" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@drawable/actionbar</item>
+        <item name="background">@drawable/actionbar</item>
+    </style>
+
+<!--    Menu -->
+    <style name="BarPopup" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/colorGradientStart</item>
+        <item name="android:textColor">@color/colorGradientEnd1_2</item>
+    </style>
+
+    <style name="StyleForChangingActivity" parent="@android:style/Animation.Translucent">
+        <item name="android:windowEnterAnimation">@anim/scaile_in_fragment_animation</item>
+        <item name="android:windowExitAnimation">@anim/scalie_out_fragment_animation</item>
+        <item name="android:activityOpenEnterAnimation">@anim/scaile_in_fragment_animation</item>
+        <item name="android:activityOpenExitAnimation">@anim/static_back_anim</item>
+        <item name="android:activityCloseEnterAnimation">@anim/static_back_anim</item>
+        <item name="android:activityCloseExitAnimation">@anim/scalie_out_fragment_animation</item>
+    </style>
+
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">DiplomAppV1.0</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="swipe_left_for_register">Проведите пальцем по экрану в право чтобы зарегистрироваться</string>
+    <string name="document_title_label">Наименование</string>
+    <string name="document_contact_info_label">Контактная информация</string>
+    <string name="document_extra_info_label">Дополнительные данные по документу</string>
+    <string name="document_salary_label">Заработная плата</string>
+    <string name="document_title_hint">Введите название.</string>
+    <string name="document_contact_info_hint">Введите контактные данные!</string>
+    <string name="document_extra_info_hint">Дополнительные данные по документу.</string>
+    <string name="document_salary_hint">Предполагаемая заработная плата.</string>
+    <string name="document_resumes">Новые резюме</string>
+    <string name="document_vacancys">Новые вакансии</string>
+    <string name="animated_open_item">Открыто</string>
+    <string name="unanimated_item">Посмотреть полностью</string>
+
+    <string name="create_document">Создать новый документ</string>
+    <string name="open_user">Личный кабинет</string>
+    <string name="open_settings">Настройки</string>
+
+<!--    Наименования кнопок-->
+    <string name="update">Обновить</string>
+    <string name="delete">Удалить</string>
+    <string name="add">Добавить</string>
+    <string name="cancel">Отменить</string>
+    <string name="go_to_main">Вернуться на главную страницу</string>
+</resources>

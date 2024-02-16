@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/vacancy_author_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        style="?android:listSeparatorTextViewStyle"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/document_title_label"
+        style="?android:listSeparatorTextViewStyle"
+        />
+
+    <EditText
+        android:id="@+id/document_title"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:hint="@string/document_title_hint" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/document_contact_info_label"
+        style="?android:listSeparatorTextViewStyle"
+        />
+    <EditText android:id="@+id/document_contact_info"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="@string/document_contact_info_hint"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/document_extra_info_label"
+        style="?android:listSeparatorTextViewStyle"
+        />
+    <EditText android:id="@+id/document_extra_info"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="@string/document_extra_info_hint"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/document_salary_label"
+        style="?android:listSeparatorTextViewStyle"
+        />
+    <EditText android:id="@+id/document_salary"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="@string/document_salary_hint"
+        />
+
+    <Button
+        android:id="@+id/add_document"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_custom"
+        android:text="@string/add" />
+
+    <Button
+        android:id="@+id/go_on_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/btn_custom_danger"
+        android:text="@string/cancel" />
+
+</LinearLayout>
